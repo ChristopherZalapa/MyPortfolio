@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Navbar from './components/navbar/Navbar'
+import Navbar from './components/Navbar'
 import HomePage from './pages/HomePage'
 import AboutPage from './pages/AboutPage'
 import MyProjects from './pages/MyProjects'
