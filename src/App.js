@@ -1,18 +1,25 @@
-import React from 'react';
-import { BrowserRouter as Router } from 'react-router-dom';
+import React, { Component } from 'react';
 import Navbar from './components/navbar/Navbar'
-import Routes from './config/Routes'
+import HomePage from './pages/HomePage'
+import AboutPage from './pages/AboutPage'
+import MyProjects from './pages/MyProjects'
+import MySkills from './pages/MySkills'
+import ContactPage from './pages/ContactPage'
+
 import './App.scss';
 
-function App() {
-  return (
-    <Router>
+class App extends Component {
+  render () {
+    return (
       <div className="App">
         <Navbar />
-        { Routes }
+        <HomePage />
+        <AboutPage />
+        <MyProjects />
+        <MySkills />
+        <ContactPage />
       </div>
-    </Router>
-  );
+    );
+  }
 }
-
 export default App;
