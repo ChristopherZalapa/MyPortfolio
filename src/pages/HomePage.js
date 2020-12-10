@@ -1,10 +1,12 @@
 import React, { Component } from 'react'
-import { Link } from 'react-router-dom'
 
 class HomePage extends Component {
     render () {
         return (
-            <h1>Welcome To My Portfolio</h1>
+            <div>
+                <h1>Christopher Zalapa</h1>
+                <p>Full-Stack UI Web Developer</p>
+            </div>
         )
     }
 }
