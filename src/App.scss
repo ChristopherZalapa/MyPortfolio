@@ -11,20 +11,84 @@ body {
 
 .homePageContainer {
   height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  // justify-content: space-between;
+
+  h1 {
+    justify-content: center;
+    text-align: center;
+  }
+
+  p {
+    justify-content: center;
+    text-align: center;
+  }
+
 }
 
 .aboutPageContainer {
+  display: flex;
   height: 100vh;
+  // justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+
+  .text-container {
+    width: 500px;
+    margin: auto;
+
+  }
+
+  .pic-container {
+    width: 50%;
+    margin: auto;
+    align-items: center;
+  }
+
 }
 
 .myProjectContainer {
   height: 100vh;
+
+  h1 {
+    justify-content: center;
+    text-align: center;
+  }
+
+  p {
+    justify-content: center;
+    text-align: center;
+  }
+
 }
 
 .mySkillsContainer {
   height: 100vh;
+
+  h1 {
+    justify-content: center;
+    text-align: center;
+  }
+
+  p {
+    justify-content: center;
+    text-align: center;
+  }
+
 }
 
 .contactPageContainer {
   height: 100vh;
+
+  h1 {
+    justify-content: center;
+    text-align: center;
+  }
+
+  p {
+    justify-content: center;
+    text-align: center;
+  }
+
 }

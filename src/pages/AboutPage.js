@@ -4,8 +4,13 @@ class AboutPage extends Component {
     render() {
         return (
             <div id="aboutme" className="aboutPageContainer">
-                <h1>About Me</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error quae quos unde numquam id possimus? Officiis modi esse alias ipsam sequi repellat cumque, quidem repellendus suscipit, doloremque, provident inventore nostrum!</p>
+                <div className="text-container">
+                    <h1>About Me</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error quae quos unde numquam id possimus? Officiis modi esse alias ipsam sequi repellat cumque, quidem repellendus suscipit, doloremque, provident inventore nostrum!</p>
+                </div>
+                <div className="pic-container">
+                    <img src="https://picsum.photos/200/300" alt="dog"/>
+                </div>
             </div>
         )
     }
