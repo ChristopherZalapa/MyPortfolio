@@ -1,13 +1,17 @@
+body {
+
+}
 .homePageContainer {
 	height: 100vh;
 	display: flex;
 	align-items: center;
 	justify-content: center;
 	flex-wrap: wrap;
-
-	h1 {
-		font-size: 5rem;
-	}
+	background-image: url("https://previews.dropbox.com/p/thumb/ABDHEqV6OTVrnn8HkfrxWhwnEddNqLKPIKQOXq1ZPHpMmvR7d0opCH_kdq-JmeTApy-T4N7Dv_STd5SelqINB7YOSouMOKL2GIMHbb7ipoBeezW9C_7-IixxmapqVgJK6F1WALa5ULB_cJJLmIuDoS15tD6IMCKDYqkc9FQA9kDzJkTS_9V4KJPZgaXPqfklwnrqi6VeNuaxTTIq072VL3NAYDcfcUC940qtpHHIwF728ZQKK9ZUvsWTKlgMZYKTy4QbMWTumIt8yEy5fLUZQ-tnyjUin1MVaWK1ed4csD6nJhHrp-4rAPbLv5SUxJumNWk3bxd5_sYfISTG92o5eQldewL7Uq29syoTgFuT6R38eg/p.jpeg?fv_content=true&size_mode=5");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	// background-image: src("/public/images/9TksEPPg-removebg-preview.png");
 
 	p {
 		margin-left: 3rem;
