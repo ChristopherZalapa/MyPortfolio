@@ -1,0 +1,20 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	color: white;
+}
+
+body {
+	background-color: black;
+}
+
+// Component Imports
+@import "./components_styles/_NavbarStyles.scss";
+
+// Page Imports
+@import "./pages_styles/_AboutPageStyles";
+@import "./pages_styles/_HomePageStyles";
+@import "./pages_styles/_ContactPageStyles";
+@import "./pages_styles/_MyProjectsStyles";
+@import "./pages_styles/_MyStackStyles";

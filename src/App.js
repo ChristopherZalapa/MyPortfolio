@@ -8,7 +8,7 @@ import MyStack from './pages/MyStack'
 import ContactPage from './pages/ContactPage'
 import ScrollToTop from './components/ScrollToTop'
 
-import './App.scss';
+import './styles/styles.scss';
 
 function App () {
   return (

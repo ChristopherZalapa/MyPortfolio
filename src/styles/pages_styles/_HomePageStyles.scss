@@ -1,0 +1,16 @@
+.homePageContainer {
+	height: 100vh;
+	display: flex;
+	flex-wrap: wrap;
+	// justify-content: space-between;
+
+	h1 {
+		justify-content: center;
+		text-align: center;
+	}
+
+	p {
+		justify-content: center;
+		text-align: center;
+	}
+}
