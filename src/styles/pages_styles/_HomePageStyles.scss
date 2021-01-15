@@ -1,16 +1,16 @@
 .homePageContainer {
 	height: 100vh;
 	display: flex;
+	align-items: center;
+	justify-content: center;
 	flex-wrap: wrap;
-	// justify-content: space-between;
 
 	h1 {
-		justify-content: center;
-		text-align: center;
+		font-size: 5rem;
 	}
 
 	p {
-		justify-content: center;
-		text-align: center;
+		margin-left: 3rem;
+		display: flex;
 	}
 }

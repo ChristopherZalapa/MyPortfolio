@@ -9,7 +9,7 @@ class HomePage extends Component {
         return (
             <div>
                 <div id="homepage" className="homePageContainer">
-                    <h1>Christopher Zalapa</h1>
+                    <h1>Christopher <br />Zalapa</h1>
                     <p>Full-Stack UI Web Developer</p>
                 </div>
                 <AboutPage />

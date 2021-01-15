@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-// import ChrisPic from '../public/images/9TksEPPg-removebg-preview.png'
 
 class AboutPage extends Component {
     render() {

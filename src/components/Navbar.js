@@ -11,6 +11,9 @@ function Navbar() {
     return (
         <>
             <div className="navbar">
+                <div className='nav-name'>
+                    Christopher Zalapa
+                </div>
                 <div className="navbar-container container">
                     <div 
                         className="menu-icon"
